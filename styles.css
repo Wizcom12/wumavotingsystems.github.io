@@ -118,6 +118,7 @@ body {
       display: block;
       width: 100%;
       text-align: left;
+        font-size: 30px;
     }
   }
 
@@ -133,7 +134,7 @@ body {
   
   button {
     
-    font-size: 14px;
+    font-size: 16px;
     border-radius: 8px;
     cursor: pointer;
     background-color: green; opacity: 0.8;
