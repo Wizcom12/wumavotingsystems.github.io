@@ -128,7 +128,7 @@ body {
 
 
 
-  #heading{color: white;}
+  
 
   p{font-family: 'Times New Roman', Times, serif; font-size: 17px;}
   
@@ -190,5 +190,5 @@ h1{font-family: cursive; color: white; font-weight: bold;}
     text-align: center;
  }
 
- #call-text{font-size: 26px; color: #04AA6D; 
-text-decoration: none;}
+ #call-text{font-size: 28px; color: #04AA6D; 
+text-decoration: none; margin-bottom: 25px;}
