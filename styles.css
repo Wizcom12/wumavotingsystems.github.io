@@ -170,7 +170,7 @@ body {
 
   button:hover{opacity: 0.9; color: red; background-color: white; transform: scale(1.2); }
   button:active{opacity: 0.4;}
-h1{font-family: cursive; color: indigo;}
+h1{font-family: cursive; color: white; font-weight: bold;}
   
 .form1{background-color: orangered;} 
 .form2{background-color: yellowgreen;} 
