@@ -185,8 +185,9 @@ h1{font-family: cursive; color: indigo;}
     width: 100%;
     background-color: black;
     color: white;
+    font-size: 25px;
     text-align: center;
  }
 
- #call-text{font-size: 23px; color: #04AA6D; 
+ #call-text{font-size: 26px; color: #04AA6D; 
 text-decoration: none;}
