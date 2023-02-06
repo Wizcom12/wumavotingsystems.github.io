@@ -3,6 +3,14 @@ body {
     background-color: black;
 
   }
+.topnav{
+margin-bottom: 50px;
+font-size: 25p}
+
+.container{
+margin: auto;
+
+}
   
 #mainh1{ color: black;}
   /* Add a black background color to the top navigation */
@@ -188,6 +196,7 @@ h1{font-family: cursive; color: white; font-weight: bolder;}
     color: white;
     font-size: 25px;
     text-align: center;
+    margin-top: 50px;
  }
 
  #call-text{font-size: 28px; color: #04AA6D; 
