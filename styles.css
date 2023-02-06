@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: whitesmoke;
+    background-color: black;
 
   }
   
@@ -30,7 +30,9 @@ body {
   
   /* Hide the link that should open and close the topnav on small screens */
 
-  
+    .topnav .icon {
+    display: none;
+  }
   /* Dropdown container - needed to position the dropdown content */
   .dropdown {
     float: left;
@@ -160,7 +162,7 @@ body {
     }
   }
   
-
+#hmain{color: white;}
   
    
   
@@ -174,7 +176,7 @@ h1{font-family: cursive; color: white; font-weight: bolder;}
 .form2{background-color: yellowgreen;} 
 .form3{background-color: gray; color: white;}
 .form4{background-color: pink;}
-.form5{background-color: aqua; margin-bottom: 120px;}
+.form5{background-color: aqua; margin-bottom: auto;}
 
 .footer {
   
