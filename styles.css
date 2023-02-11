@@ -88,7 +88,7 @@
   display: block;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 575.98px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
@@ -98,7 +98,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 575.98px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -171,7 +171,7 @@ h1{font-family: cursive; color: white; font-weight: bolder;}
 .form2{background-color: yellowgreen; opacity: 0.7} 
 .form3{background-color: gray; color: white; opacity: 0.7}
 .form4{background-color: pink; opacity: 0.7}
-.form5{background-color: aqua; margin-bottom: 120px;}
+.form5{background-color: aqua; margin-bottom: 120px;opacity: 0.7;}
 
 
 #countdown {
