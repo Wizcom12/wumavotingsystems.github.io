@@ -12,6 +12,8 @@
       }
 
 
+#h1{font-family: 'Times New Roman', Times, serif; font-weight;bold ;
+  }
 
       .topnav {
   overflow: hidden;
@@ -165,10 +167,10 @@
   button:active{opacity: 0.4;}
 h1{font-family: cursive; color: white; font-weight: bolder;}
   
-.form1{background-color: orangered;} 
-.form2{background-color: yellowgreen;} 
-.form3{background-color: gray; color: white;}
-.form4{background-color: pink;}
+.form1{background-color: orangered; opacity: 0.7} 
+.form2{background-color: yellowgreen; opacity: 0.7} 
+.form3{background-color: gray; color: white; opacity: 0.7}
+.form4{background-color: pink; opacity: 0.7}
 .form5{background-color: aqua; margin-bottom: 120px;}
 
 
