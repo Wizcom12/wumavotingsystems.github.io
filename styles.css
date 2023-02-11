@@ -12,25 +12,6 @@
       }
 
 
-      nav {
-  position: relative;
-}
-
-@media only screen and (min-width: 768px) {
-  nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-  }
-}
-
-
-
-
-
-
-      
 
       .topnav {
   overflow: hidden;
@@ -136,10 +117,6 @@
   }
 }
 
-  
-
-
-
 
 
 
@@ -194,6 +171,53 @@ h1{font-family: cursive; color: white; font-weight: bolder;}
 .form4{background-color: pink;}
 .form5{background-color: aqua; margin-bottom: 120px;}
 
+
+#countdown {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#countdown div {
+  width: 70px;
+  height: 70px;
+  background-color: inherit;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px;
+}
+
+#count {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+
+#count div {
+  width: 70px;
+  height: 70px;
+  background-color: inherit;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px;
+}
+
+
+
+
 .footer {
   
     position: fixed;
@@ -207,6 +231,5 @@ h1{font-family: cursive; color: white; font-weight: bolder;}
     margin-top: 50px;
  }
 
- #call-text{font-size: 28px; color: #04AA6D; 
+ #call-text{font-size: 28px; color: #04AA6D; font-weight: bold;
 text-decoration: none; margin-bottom: 25px;}
-
