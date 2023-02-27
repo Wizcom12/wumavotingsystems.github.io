@@ -139,7 +139,7 @@ var countdownInterval = setInterval(function() {
  // If the count down is finished, stop the interval and display a message
  if (distance < 0) {
    clearInterval(countdownInterval);
-   document.getElementById("countdown").innerHTML = "VOTING ENDED";
+   document.getElementById("countdown").innerHTML = "VOTING ENDED"; 
    
  }
 }, 1000);
