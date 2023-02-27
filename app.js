@@ -113,39 +113,6 @@ var x = setInterval(function() {
 
 
 
- // Set the target date
- var targetDate = new Date("February 26, 2023 23:59:59");
-
- // Update the count down every 1 second
- var countdownInterval = setInterval(function() {
-  // Get today's date and time
-  var currentDate = new Date().getTime();
-  
-  // Find the distance between the target date and current date
-  var distance = targetDate - currentDate;
-  
-  // Time calculations for days, hours, minutes, and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  
-  // Display the result in the element with id="countdown"
-  document.getElementById("days3").innerHTML = days + "d";
-  document.getElementById("hours3").innerHTML = hours + "h";
-  document.getElementById("minutes3").innerHTML = minutes + "m";
-  document.getElementById("seconds3").innerHTML = seconds + "s";
-  
-  // If the count down is finished, stop the interval and display a message
-  if (distance < 0) {
-    clearInterval(countdownInterval);
-    document.getElementById("countdown").innerHTML = "VOTING ENDED";
-    
-  }
- }, 1000);
-
-
-
   // Set the target date
 var targetDate = new Date("February 26, 2023 23:59:59");
 
@@ -164,10 +131,10 @@ var countdownInterval = setInterval(function() {
  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
  
  // Display the result in the element with id="countdown"
- document.getElementById("days4").innerHTML = days + "d";
- document.getElementById("hours4").innerHTML = hours + "h";
- document.getElementById("minutes4").innerHTML = minutes + "m";
- document.getElementById("seconds4").innerHTML = seconds + "s";
+ document.getElementById("days").innerHTML = days + "d";
+ document.getElementById("hours").innerHTML = hours + "h";
+ document.getElementById("minutes").innerHTML = minutes + "m";
+ document.getElementById("seconds").innerHTML = seconds + "s";
  
  // If the count down is finished, stop the interval and display a message
  if (distance < 0) {
@@ -180,35 +147,67 @@ var countdownInterval = setInterval(function() {
 
 
  // Set the target date
- var targetDate = new Date("February 26, 2023 23:59:59");
+var targetDate = new Date("February 26, 2023 23:59:59");
 
- // Update the count down every 1 second
- var countdownInterval = setInterval(function() {
-  // Get today's date and time
-  var currentDate = new Date().getTime();
-  
-  // Find the distance between the target date and current date
-  var distance = targetDate - currentDate;
-  
-  // Time calculations for days, hours, minutes, and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  
-  // Display the result in the element with id="countdown"
-  document.getElementById("days5").innerHTML = days + "d";
-  document.getElementById("hours5").innerHTML = hours + "h";
-  document.getElementById("minutes5").innerHTML = minutes + "m";
-  document.getElementById("seconds5").innerHTML = seconds + "s";
-  
-  // If the count down is finished, stop the interval and display a message
-  if (distance < 0) {
-    clearInterval(countdownInterval);
-    document.getElementById("countdown").innerHTML = "VOTING ENDED";
-    
-  }
- }, 1000);
+// Update the count down every 1 second
+var countdownInterval = setInterval(function() {
+ // Get today's date and time
+ var currentDate = new Date().getTime();
+ 
+ // Find the distance between the target date and current date
+ var distance = targetDate - currentDate;
+ 
+ // Time calculations for days, hours, minutes, and seconds
+ var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+ var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+ var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+ var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+ 
+ // Display the result in the element with id="countdown"
+ document.getElementById("days").innerHTML = days + "d";
+ document.getElementById("hours").innerHTML = hours + "h";
+ document.getElementById("minutes").innerHTML = minutes + "m";
+ document.getElementById("seconds").innerHTML = seconds + "s";
+ 
+ // If the count down is finished, stop the interval and display a message
+ if (distance < 0) {
+   clearInterval(countdownInterval);
+   document.getElementById("countdown").innerHTML = "VOTING ENDED";
+   
+ }
+}, 1000);
+
+
+ // Set the target date
+var targetDate = new Date("February 26, 2023 23:59:59");
+
+// Update the count down every 1 second
+var countdownInterval = setInterval(function() {
+ // Get today's date and time
+ var currentDate = new Date().getTime();
+ 
+ // Find the distance between the target date and current date
+ var distance = targetDate - currentDate;
+ 
+ // Time calculations for days, hours, minutes, and seconds
+ var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+ var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+ var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+ var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+ 
+ // Display the result in the element with id="countdown"
+ document.getElementById("days").innerHTML = days + "d";
+ document.getElementById("hours").innerHTML = hours + "h";
+ document.getElementById("minutes").innerHTML = minutes + "m";
+ document.getElementById("seconds").innerHTML = seconds + "s";
+ 
+ // If the count down is finished, stop the interval and display a message
+ if (distance < 0) {
+   clearInterval(countdownInterval);
+   document.getElementById("countdown").innerHTML = "VOTING ENDED";
+   
+ }
+}, 1000);
 
  /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
