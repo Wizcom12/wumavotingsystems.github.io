@@ -72,7 +72,7 @@ var countdownInterval = setInterval(function() {
  // If the count down is finished, stop the interval and display a message
  if (distance < 0) {
    clearInterval(countdownInterval);
-   document.getElementById("countdown").innerHTML = "EXPIRED";
+   document.getElementById("countdown").innerHTML = "VOTING ENDED";
    
  }
 }, 1000);
@@ -139,7 +139,7 @@ var x = setInterval(function() {
   // If the count down is finished, stop the interval and display a message
   if (distance < 0) {
     clearInterval(countdownInterval);
-    document.getElementById("countdown").innerHTML = "EXPIRED";
+    document.getElementById("countdown").innerHTML = "VOTING ENDED";
     
   }
  }, 1000);
@@ -172,7 +172,7 @@ var countdownInterval = setInterval(function() {
  // If the count down is finished, stop the interval and display a message
  if (distance < 0) {
    clearInterval(countdownInterval);
-   document.getElementById("countdown").innerHTML = "EXPIRED";
+   document.getElementById("countdown").innerHTML = "VOTING ENDED";
    
  }
 }, 1000);
@@ -205,7 +205,7 @@ var countdownInterval = setInterval(function() {
   // If the count down is finished, stop the interval and display a message
   if (distance < 0) {
     clearInterval(countdownInterval);
-    document.getElementById("countdown").innerHTML = "EXPIRED";
+    document.getElementById("countdown").innerHTML = "VOTING ENDED";
     
   }
  }, 1000);
