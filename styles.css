@@ -230,11 +230,11 @@ h1{font-family: cursive; color: white; font-weight: bolder;}
     color: white;
     font-size: 35px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 150px;
  }
 
- #call-text{font-size: 28px; color: #04AA6D; font-weight: bold;
-text-decoration: none; margin-bottom: 25px; margin-bottom: 25px}
+ #call-text{font-size: 15px; color: #04AA6D; font-weight: bold;
+text-decoration: none; margin-bottom: 25px; margin-bottom: 25px; }
 
 
 /* CSS for the header */
