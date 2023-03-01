@@ -219,3 +219,63 @@ function myFunction() {
     }
   }
 
+const messageForm = document.getElementById('message-form');
+const messageInput = document.getElementById('message-input');
+const messageList = document.getElementById('message-list');
+
+let replyMessageId = null;
+
+messageForm.addEventListener('submit', e => {
+	e.preventDefault();
+	if (replyMessageId) {
+		// User is replying to a message
+		const replyMessage = document.getElementById(replyMessageId);
+		const replySection = replyMessage.querySelector('.reply-section');
+		const replyInput = replySection.querySelector('.reply-input');
+		const replyButton = replySection.querySelector('.reply-button');
+		if (replyInput.value.trim() !== '') {
+			const reply = document.createElement('li');
+			reply.classList.add('reply');
+			reply.textContent = replyInput.value;
+			replyMessage.appendChild(reply);
+			replyInput.value = '';
+			replySection.classList.remove('active');
+			replyButton.textContent = 'Reply';
+			replyMessageId = null;
+			messageList.scrollTop = messageList.scrollHeight;
+		}
+	} else {
+		// User is submitting a new message
+		if (messageInput.value.trim() !== '') {
+			const message = document.createElement('li');
+			message.classList.add('message');
+			message.textContent = messageInput.value;
+			const replySection = document.createElement('div');
+			replySection.classList.add('reply-section');
+			const replyInput = document.createElement('input');
+			replyInput.classList.add('reply-input');
+			replyInput.placeholder = 'Reply to this message...';
+			const replyButton = document.createElement('button');
+			replyButton.classList.add('reply-button');
+			replyButton.textContent = 'Reply';
+			replyButton.addEventListener('click', () => {
+				if (replySection.classList.contains('active')) {
+					replySection.classList.remove('active');
+					replyButton.textContent = 'Reply';
+					replyMessageId = null;
+				} else {
+					replySection.classList.add('active');
+					replyButton.textContent = 'Cancel';
+					replyMessageId = message.id;
+				}
+			});
+			replySection.appendChild(replyInput);
+			replySection.appendChild(replyButton);
+			message.appendChild(replySection);
+			messageList.appendChild(message);
+			messageInput.value = '';
+			messageList.scrollTop = messageList.scrollHeight;
+		}
+	}
+});
+
