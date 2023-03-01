@@ -222,13 +222,13 @@ h1{font-family: cursive; color: white; font-weight: bolder;}
 
 .footer {
   
-    position: fixed;
+    
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: orange;
     color: white;
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
     margin-top: 150px;
  }
